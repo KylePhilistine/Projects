@@ -1,4 +1,0 @@
-﻿  RouletteTable.cpp
-c:\users\user\desktop\repo\projects\rouletteproblem\rouletteproblem\source\roulettetable.cpp(7): warning C4244: 'argument': conversion from 'std::chrono::system_clock::rep' to 'unsigned int', possible loss of data
-  RouletteProblem.vcxproj -> C:\Users\User\Desktop\Repo\Projects\RouletteProblem\x64\Debug\RouletteProblem.exe
-  RouletteProblem.vcxproj -> C:\Users\User\Desktop\Repo\Projects\RouletteProblem\x64\Debug\RouletteProblem.pdb (Partial PDB)
