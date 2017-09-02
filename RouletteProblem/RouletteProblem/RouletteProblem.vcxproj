@@ -113,9 +113,11 @@
   <ItemGroup>
     <ClCompile Include="Source\main.cpp" />
     <ClCompile Include="Source\RouletteTable.cpp" />
+    <ClCompile Include="Source\RouletteTableController.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\RouletteTable.h" />
+    <ClInclude Include="Source\RouletteTableController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

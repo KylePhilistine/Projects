@@ -24,9 +24,15 @@
     <ClCompile Include="Source\RouletteTable.cpp">
       <Filter>Source Files\Source</Filter>
     </ClCompile>
+    <ClCompile Include="Source\RouletteTableController.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\RouletteTable.h">
+      <Filter>Source Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RouletteTableController.h">
       <Filter>Source Files\Source</Filter>
     </ClInclude>
   </ItemGroup>

@@ -10,7 +10,8 @@ class RouletteTable
       enum Color
       {
         BLACK = 0,
-        RED = 1
+        RED = 1,
+        GREEN = 2
       };
 
       RouletteResults(Color color,int number)  
@@ -21,7 +22,11 @@ class RouletteTable
 
       friend std::ostream& operator<<(std::ostream& os, const RouletteResults& rouletteResults)
       {
-        os << "Color: " << (rouletteResults.mColor ? "Red" : "Black") << std::endl;
+        if(rouletteResults.mColor == RouletteResults::Color::GREEN)
+          os << "Color: " << "Green" << std::endl;
+        else
+          os << "Color: " << (rouletteResults.mColor ? "Red" : "Black") << std::endl;
+
         os << "Number: " << rouletteResults.mNumber << std::endl;
         return os;
       }

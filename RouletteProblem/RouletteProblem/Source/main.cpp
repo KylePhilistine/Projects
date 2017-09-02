@@ -1,10 +1,11 @@
 #include <iostream>
-#include "RouletteTable.h"
+#include "RouletteTableController.h"
 
 
 int main(void)
 {
-  RouletteTable rouletteTable;
-  std::cout << rouletteTable.Spin();
+  RouletteTableController tableController;
+  tableController.Start();
+
 	return 0;
 }
