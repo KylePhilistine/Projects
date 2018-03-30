@@ -10,4 +10,4 @@ are eventually going to turn a profit when you win. However, that profit will al
 
 Ex: you start with a $5 bet, you lose 3 times in a row, your 4th bet would need to be $40. 
     This is because you previously lost $5, then $10, then $20, $40 will ensure you make 
-	your money back plus however much your initial bet was.
+    your money back plus however much your initial bet was.
