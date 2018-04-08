@@ -2,7 +2,7 @@
 
 
 int main(void) {
-  GoL GameOfLife(10, 10, .30);
+  GoL GameOfLife(20, 20, .30);
   GameOfLife.Start();
   
   return 0;
